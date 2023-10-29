@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+   <h2>Coordinates to Words</h2>
+   <h1>enter altitude in meters</h1>
+   <form action="/coords_to_words" method="post">
+      Latitude: <input type="text" name="latitude"><br>
+      Longitude: <input type="text" name="longitude"><br>
+      Altitude: <input type="text" name="altitude"><br>
+      <input type="submit" value="Generate 3 Words">
+   </form>
+
+   <h2>Words to Coordinates</h2>
+   <h1>enter words without space and adding '.' between the words</h1>
+   <form action="/words_to_coords" method="post">
+      3 Words: <input type="text" name="words"><br>
+      <input type="submit" value="Generate Coordinates">
+   </form>
+</body>
+</html>

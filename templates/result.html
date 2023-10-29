@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+   <h2>Result</h2>
+   {% if words %}
+      <p>Generated 3 Words: {{ words }}</p>
+   {% elif latitude and longitude and altitude %}
+      <p>Latitude: {{ latitude }}</p>
+      <p>Longitude: {{ longitude }}</p>
+      <p>Altitude: {{ altitude }}</p>
+   {% else %}
+      <p>No result available.</p>
+   {% endif %}
+</body>
+</html>
