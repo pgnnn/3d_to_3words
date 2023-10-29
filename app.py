@@ -31,7 +31,7 @@ def words_to_coords(words):
 
     # Convert binary to altitude
     altitude = int(altitude_binary[:9], 2) * 3
-    return altitude_binary,longitude,altitude    
+    return latitude,longitude,altitude    
 
 
 # Function to convert coordinates to 3 words
