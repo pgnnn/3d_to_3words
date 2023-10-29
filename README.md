@@ -1,4 +1,5 @@
 # 3d_to_3words
+used python and flask to create this
 given a lat,long, altitude, then it will generate uniqe 3words with upper or small letters and viceversa also will workd
 
 max height of a floor is 10 to 14 feet means 3m to 4.2m
